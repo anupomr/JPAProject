@@ -1,3 +1,5 @@
+package Anupom.Guneet.elcetion.entities;
+
 import java.io.Serializable;
 
 import javax.persistence.Column;
@@ -6,6 +8,10 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 import javax.persistence.Table;
+
+import Anupom.Guneet.elcetion.exceptions.DataInputException;
+
+
 
 @Entity 
 @Table(name="Candidate", schema="ELECTION")
