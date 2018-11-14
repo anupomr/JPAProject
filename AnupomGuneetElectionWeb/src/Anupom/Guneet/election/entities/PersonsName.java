@@ -1,4 +1,4 @@
-package your.name.election.entities;
+package Anupom.Guneet.election.entities;
 
 import java.io.Serializable;
 

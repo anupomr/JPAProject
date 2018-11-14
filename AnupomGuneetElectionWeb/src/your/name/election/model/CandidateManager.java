@@ -2,7 +2,7 @@ package your.name.election.model;
 
 import java.util.List;
 
-import your.name.election.entities.Candidate;
+import Anupom.Guneet.election.entities.Candidate;
 import your.name.election.exceptions.CandidateException;
 
 public class CandidateManager { 

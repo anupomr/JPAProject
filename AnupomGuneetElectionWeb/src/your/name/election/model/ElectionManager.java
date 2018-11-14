@@ -2,8 +2,8 @@ package your.name.election.model;
 
 import java.io.PrintStream;
 
-import your.name.election.entities.Candidate;
-import your.name.election.entities.Voter;
+import Anupom.Guneet.election.entities.Candidate;
+import Anupom.Guneet.election.entities.Voter;
 import your.name.election.exceptions.ElectionException;
 
 public class ElectionManager { 
