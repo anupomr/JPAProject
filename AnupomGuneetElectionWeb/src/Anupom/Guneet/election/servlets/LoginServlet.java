@@ -1,3 +1,5 @@
+package Anupom.Guneet.election.servlets;
+
 
 
 import java.io.IOException;
@@ -10,11 +12,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Anupom.Guneet.election.entities.Candidate;
-import Anupom.Guneet.election.entities.Voter;
-import your.name.election.exceptions.ElectionException;
-import your.name.election.model.CandidateManager;
-import your.name.election.model.ElectionManager;
+import Anupom.Guneet.elcetion.entities.Candidate;
+import Anupom.Guneet.elcetion.entities.Voter;
+import Anupom.Guneet.election.exceptions.ElectionException;
+import Anupom.Guneet.election.model.CandidateManager;
+import Anupom.Guneet.election.model.ElectionManager;
+
 
 
 /**

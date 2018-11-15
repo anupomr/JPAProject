@@ -2,14 +2,16 @@ package Anupom.Guneet.election.model;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+
 import Anupom.Guneet.elcetion.entities.Candidate;
 import Anupom.Guneet.election.exceptions.CandidateException;
 
-
-
-
 public class CandidateManager { 
-	
+	@PersistenceContext
+	EntityManager em=EMFSupplier.getInstance().getEMF().createEntityManager();
     public CandidateManager() {
         super();
     }
@@ -41,7 +43,9 @@ public class CandidateManager {
     // returns candidate information used to generate buttons on the ballot form
 	public List<Candidate> getCandidates() {
 		// complete this method and modify the next line to 
+		TypedQuery< Candidate> tq=em.createNamedQuery("getAllCandidates", Candidate.class);
+		List<Candidate> candidates=tq.getResultList();
 		// return a list of candidates
-		return null;
+		return candidates;
 	}
 }
