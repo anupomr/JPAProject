@@ -1,4 +1,5 @@
-package your.name.election.exceptions;
+package Anupom.Guneet.election.exceptions;
+
 
 public class ElectionException extends Exception {
 	private static final long serialVersionUID = 1L;

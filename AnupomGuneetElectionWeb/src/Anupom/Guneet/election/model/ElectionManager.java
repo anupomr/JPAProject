@@ -1,10 +1,11 @@
-package your.name.election.model;
+package Anupom.Guneet.election.model;
 
 import java.io.PrintStream;
 
-import Anupom.Guneet.election.entities.Candidate;
-import Anupom.Guneet.election.entities.Voter;
-import your.name.election.exceptions.ElectionException;
+import Anupom.Guneet.elcetion.entities.Candidate;
+import Anupom.Guneet.elcetion.entities.Voter;
+import Anupom.Guneet.elcetion.exceptions.DataInputException;
+import Anupom.Guneet.election.exceptions.ElectionException;
 
 public class ElectionManager { 
 	

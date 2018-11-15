@@ -1,4 +1,8 @@
-package your.name.election.model;
+package Anupom.Guneet.election.model;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.persistence.EntityManagerFactory;
 
 public class EMFSupplier {
 	

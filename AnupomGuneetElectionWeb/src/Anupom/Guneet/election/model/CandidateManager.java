@@ -1,9 +1,12 @@
-package your.name.election.model;
+package Anupom.Guneet.election.model;
 
 import java.util.List;
 
-import Anupom.Guneet.election.entities.Candidate;
-import your.name.election.exceptions.CandidateException;
+import Anupom.Guneet.elcetion.entities.Candidate;
+import Anupom.Guneet.election.exceptions.CandidateException;
+
+
+
 
 public class CandidateManager { 
 	
@@ -15,7 +18,7 @@ public class CandidateManager {
     // they not required in this exercise. However they would be 
     // implemented in a more generic bean used in other situations.
     
-    public Candidate getCandidate(String CandidateCode) throws CandidateException {
+    public Anupom.Guneet.election.exceptions.CandidateException getCandidate(String CandidateCode) throws CandidateException {
     	// method not required for this exercise
     	return null;
     }
